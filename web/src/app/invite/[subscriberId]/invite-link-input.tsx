@@ -2,8 +2,8 @@
 //isso é pro next.. pra parte js que usa o onClick funcionar no navegador, assim a gente minimiza a qnt de js que mandamos
 
 import { Copy, Link } from 'lucide-react'
-import { IconButton } from '../../components/icon-button'
-import { InputField, InputIcon, InputRoot } from '../../components/input'
+import { IconButton } from '../../../components/icon-button'
+import { InputField, InputIcon, InputRoot } from '../../../components/input'
 
 interface InviteLinkInputProps {
   inviteLink: string
